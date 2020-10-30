@@ -107,10 +107,14 @@
 					<div class="col-md-8 col-md-offset-2">
 						<h1 class="intro-lead">4th ACM SIGSPATIAL International Workshop on Geospatial Humanities</h1>
 						<p class="">Will be held as a virtual conference in conjunction with <a href="http://sigspatial2020.sigspatial.org" target="_blank">ACM SIGSPATIAL 2020</a> <s>in Seattle, Washington, USA </s></p>
+
+						
 					</div>
 				</div>
 			</div>
 		</div>
+
+
 
 		<div id="fh5co-content">
 			<div class="container">
@@ -129,7 +133,37 @@
 							</div>
 							
 							<div class="col-md-9">
-									<p>The <a href="">workshop proceedings</a> will soon be available in the ACM Digital Library. <br />The program is as follows <b><span style="color:#FF0000";>(PST time zone)</span></b>:</p>
+									<p>The <a href="">workshop proceedings</a> will soon be available in the ACM Digital Library. <br /><br />
+
+									
+									The virtual conference will be run from <b>8:00am to 11:30pm (PST)</b> (<span class="utcToLocal">2020-11-03T16:00:00.0Z</span> to <span class="utcToLocal2">2020-11-03T19:30:00.0Z</span>), November 3, 2020.<br /><br />
+									
+									<script type="text/javascript">
+document.querySelectorAll(".utcToLocal").forEach(
+  function (i) {
+    const options = {hour12: 'true', hour:'2-digit', minute:'2-digit'};
+	var zone = new Date().toLocaleTimeString('en-us',{timeZoneName:'short'}).split(' ')[2];
+	if(zone!="PST"&&zone!="PDT"){
+		i.innerText = "Your local time: "+(new Date(i.innerText).toLocaleString("en-US",options));
+	}else{
+		i.innerText = "";
+	}
+  }
+);
+document.querySelectorAll(".utcToLocal2").forEach(
+  function (i) {
+    const options = {hour12: 'true', hour:'2-digit', minute:'2-digit', timeZoneName: 'short'};
+	var zone = new Date().toLocaleTimeString('en-us',{timeZoneName:'short'}).split(' ')[2];
+	if(zone!="PST"&&zone!="PDT"){
+		i.innerText = ""+(new Date(i.innerText).toLocaleString("en-US",options))+"";
+	}else{
+		i.innerText = "";
+	}
+  }
+);
+</script>
+
+									The program is as follows <b><span style="color:#FF0000";>(PST time zone)</span></b>:</p>
 									<p></p>
 									<p>08:00 - 08:15 - Opening Remarks and Announcements</p>	
 									<p></p>
